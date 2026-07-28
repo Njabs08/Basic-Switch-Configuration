@@ -30,8 +30,8 @@ PC3 — connected via copper strraight through cable used later to test remote T
 
 Switch0 — the device being configured (renamed NjabuloSwitch)
 
-Router - connected Via copper straight through to the switch (not used)
+Router — connected Via copper straight through to the switch (not used)
 
-Printer - connected via cooper straight through to the switch (not used)
+Printer — connected via cooper straight through to the switch (not used)
 
 ## 
