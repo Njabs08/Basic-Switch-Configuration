@@ -71,5 +71,31 @@ Connect PC0x4 to Switch0 using a console cable,open the Terminal application on 
 
 <img width="441" height="296" alt="image" src="https://github.com/user-attachments/assets/471ff691-bba3-4603-bd7a-c6855e6d25bf" />
 
+6. Set a Message of the Day
+banner motd #
+< Hello Everyone welcome to Njabulo's World of Networking >
+#
+<img width="353" height="153" alt="image" src="https://github.com/user-attachments/assets/6b959c30-cf74-4a90-8374-1facd353d5c2" />
+
+7. Configure the VLAN 1 management interface and save the configuration
+   1. interface VLAN1
+   2. ip address 192.168.4.3 255.255.255.0
+   3. no shutdown
+   4. end
+   5. copy run start
+
+   <img width="526" height="338" alt="image" src="https://github.com/user-attachments/assets/f4b8eacc-1e6a-4c21-aed6-4afec1254f39" />
+
+8. Verify remote access
+   1. Assign PC3 an IP address/subnet mask on the same 192.168.4.1/28 network.
+   2. From PC3's command prompt, run:
+   telnet 10.1.17.146
+   3. Confirm the MOTD banner and password prompt appear.
+   4. Log in, then run enable and authenticate to reach Privileged EXEC mode (NjabuloSwitch#).
+
+   
+<img width="372" height="242" alt="image" src="https://github.com/user-attachments/assets/ea815f58-8a22-40e7-a9c4-70af8d152b68" />
+
+
 
 
