@@ -36,14 +36,14 @@ Printer — connected via cooper straight through to the switch (not used)
 
 ## Configuration Steps
 
-###1. Console into the switch
+1. Console into the switch
 
-Connect PC0x4 to Switch0 using a console cable, open the Terminal application on PC0x4 with default settings, and press Enter to reach User EXEC mode (Switch>)
+Connect PC0x4 to Switch0 using a console cable,open the Terminal application on PC0x4 with default settings, and press Enter to reach User EXEC mode (Switch>)
 
-###2. Explore the current configuration
-enable
-show run
-show ip interface brief
+2. Explore the current configuration
+   1. enable
+   2. show run
+   3. show ip interface brief
 
 <img width="601" height="634" alt="image" src="https://github.com/user-attachments/assets/3256919c-8dad-4c4e-8116-052e10f3811f" />
 
