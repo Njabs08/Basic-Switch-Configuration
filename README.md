@@ -13,8 +13,6 @@ A custom Message of the Day (MOTD) banner
 An IP address on the VLAN 1 management interface for remote (Telnet) access
 A saved (persistent) configuration
 
----
-
 ## Network Details
 Item	Value
 Assigned subnbet 192.168.4./24
