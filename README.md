@@ -56,11 +56,12 @@ Connect PC0x4 to Switch0 using a console cable,open the Terminal application on 
 
 4. Secure the console line
   1. line console 0
-  2. password cisco
-  3. login
-  4. exit
+  2. line console 0
+  3. password cisco
+  4. login
+  5. exit
 
-5. Secure the VTY (remote access) lines
+6. Secure the VTY (remote access) lines
   1. line vty 0 4
   2. password cisco
   3. login
