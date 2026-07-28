@@ -47,12 +47,15 @@ Connect PC0x4 to Switch0 using a console cable,open the Terminal application on 
 
 <img width="601" height="634" alt="image" src="https://github.com/user-attachments/assets/3256919c-8dad-4c4e-8116-052e10f3811f" />
 
+
 3. Enter global configuration mode
    1. configure terminal
    2. hostname NjabuloSwitch
    3. enable secret cisco123
 
 <img width="450" height="144" alt="image" src="https://github.com/user-attachments/assets/7a34b70f-cbf2-440c-ab5a-ea235c53015f" />
+
+
 
 4. Secure the console line
    1. line console 0
@@ -71,11 +74,15 @@ Connect PC0x4 to Switch0 using a console cable,open the Terminal application on 
 
 <img width="441" height="296" alt="image" src="https://github.com/user-attachments/assets/471ff691-bba3-4603-bd7a-c6855e6d25bf" />
 
+
+
 6. Set a Message of the Day
 banner motd #
 < Hello Everyone welcome to Njabulo's World of Networking >
 #
 <img width="353" height="153" alt="image" src="https://github.com/user-attachments/assets/6b959c30-cf74-4a90-8374-1facd353d5c2" />
+
+
 
 7. Configure the VLAN 1 management interface and save the configuration
    1. interface VLAN1
@@ -85,6 +92,8 @@ banner motd #
    5. copy run start
 
    <img width="526" height="338" alt="image" src="https://github.com/user-attachments/assets/f4b8eacc-1e6a-4c21-aed6-4afec1254f39" />
+
+
 
 8. Verify remote access
    1. Assign PC3 an IP address/subnet mask on the same 192.168.4.1/28 network.
